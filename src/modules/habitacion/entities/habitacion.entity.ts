@@ -1,6 +1,7 @@
 import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, OneToMany, JoinColumn } from 'typeorm';
 import { TipoHabitacion } from '../../tipo-habitacion/entities/tipo-habitacion.entity';
-import { Estadia } from '../../estadia/entities/estadia.entity';
+//import { Estadia } from '../../estadia/entities/estadia.entity';
+import { Estadia } from 'src/modules/estadia/entities/estadia.entity';
 
 @Entity('habitaciones')
 export class Habitacion {
